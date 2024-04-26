@@ -1,11 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet} from 'react-native';
 import React from 'react';
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from './screens/HomeScreen/HomeScreen';
 const App = () => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <HomeScreen />
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -14,6 +14,6 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: '15%',
+    marginTop: '5%',
   },
 });
