@@ -1,11 +1,12 @@
 import {SafeAreaView, StyleSheet} from 'react-native';
 import React from 'react';
-import HomeScreen from './screens/HomeScreen/HomeScreen';
+import {NavigationContainer} from '@react-navigation/native';
+import RootNavigator from './navigators/RootNavigator';
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <HomeScreen />
-    </SafeAreaView>
+    <NavigationContainer>
+      <RootNavigator />
+    </NavigationContainer>
   );
 };
 
@@ -14,6 +15,5 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: '5%',
   },
 });
