@@ -1,7 +1,7 @@
 import {Text, View} from 'react-native';
 import React from 'react';
 import styles from './styles';
-import productsGetir from '../../../assets/productsGetir';
+import productsGetir from '../../../../assets/productsGetir';
 import ProductItem from '../ProductItem';
 const ProductContainer = () => {
   return (

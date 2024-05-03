@@ -1,8 +1,8 @@
 import {ScrollView, Text, View} from 'react-native';
 import React, {useState} from 'react';
 import styles from './styles';
-import categoriesGetir from '../../../assets/categoriesGetir';
-import {Category} from '../../models';
+import categoriesGetir from '../../../../assets/categoriesGetir';
+import {Category} from '../../../models';
 
 const CategoryBox = ({item, active}: {item: Category; active: Category}) => {
   return (

@@ -2,7 +2,7 @@ import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import styles from './styles';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {Product} from '../../models';
+import {Product} from '../../../models';
 import {useNavigation} from '@react-navigation/native';
 
 type productItemType = {

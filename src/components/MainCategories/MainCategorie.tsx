@@ -2,7 +2,7 @@ import {View} from 'react-native';
 import React, {useState} from 'react';
 import styles from './styles';
 import categoriesGetir from '../../../assets/categoriesGetir';
-import CategoryItem from '../CategoryItem';
+import CategoryItem from '../Anasayfa/CategoryItem';
 import {Category} from '../../models';
 const MainCategorie = () => {
   const [categories, setCategories] = useState<Category[]>(categoriesGetir);

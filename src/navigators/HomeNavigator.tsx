@@ -50,7 +50,7 @@ const HomeNavigator = () => {
           headerStyle: {backgroundColor: '#5C3EBC'},
           headerLeft: () => (
             <TouchableOpacity
-              style={{paddingLeft: 8}}
+              style={{paddingLeft: 12}}
               onPress={() => navigation.goBack()}>
               <Icon name="window-close" size={24} color="white"></Icon>
             </TouchableOpacity>
@@ -59,6 +59,11 @@ const HomeNavigator = () => {
             <Text style={{color: 'white', fontWeight: 'bold', fontSize: 15}}>
               Ürün Detayı
             </Text>
+          ),
+          headerRight: () => (
+            <TouchableOpacity style={{paddingRight: 12}}>
+              <Icon name="heart" size={24} color="#32177a" />
+            </TouchableOpacity>
           ),
         }}
       />

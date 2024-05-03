@@ -1,7 +1,7 @@
 import {Image, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 import styles from './styles';
-import {Category} from '../../models';
+import {Category} from '../../../models';
 import {useNavigation} from '@react-navigation/native';
 
 type CategoryItemProps = {
